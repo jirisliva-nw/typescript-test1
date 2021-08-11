@@ -1,0 +1,30 @@
+{
+  "position" : "BOTTOM_LEFT",
+  "shapeType" : "TRIANGLE",
+  "windowKind" : "MODAL",
+  "searchAllowed" : true,
+  "url" : null,
+  "extraWait" : null,
+  "contactInfo" : "{\"email\":\"\"}",
+  "options" : "{\"tipsDomObserverEnabled\":true,\"elementClassHandle\":\"TrustElementValue\",\"elementIdHandle\":\"TrustElementValue\",\"stepUrlAutoFill\":true,\"searchAttempts\":4}",
+  "siteId" : 9625,
+  "theme" : "default",
+  "defaultRuntimeOverlayLanguage" : "en_US",
+  "defaultRuntimeApplicationLanguage" : "en_US",
+  "urls" : [ "https://www.root.cz", "http://steam-red.newired.com", "https://drive.google.com", "http://steam.newired.com", "http://steam.newired.local:3002" ],
+  "extensionUrlPatterns" : [ "assd" ],
+  "overlayLanguages" : [ "en_US" ],
+  "applicationLanguages" : [ ],
+  "licensedFeatures" : [ "tips", "journeys" ],
+  "useRelativeUrl" : false,
+  "frontendHtmlSanitize" : true,
+  "contentRuleSettings" : {
+    "withGroupSeparator" : false,
+    "decimalSeparator" : ".",
+    "dateFormat" : "yyyy-MM-dd",
+    "dateTimeFormat" : "yyyy-MM-dd HH:mm",
+    "timeFormat" : "HH:mm"
+  },
+  "objectStorageUrl" : "https://alpha.stage.newired.com/storage",
+  "handleTitle" : "Help?"
+}

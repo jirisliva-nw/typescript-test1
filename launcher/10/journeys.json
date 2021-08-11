@@ -1,0 +1,242 @@
+{
+  "guides" : [ {
+    "siteId" : 9625,
+    "id" : 19035,
+    "language" : "en_US",
+    "name" : [ {
+      "language" : "en_US",
+      "value" : "Hello"
+    } ],
+    "ownerId" : 2,
+    "order" : 22,
+    "description" : [ {
+      "language" : "en_US",
+      "value" : null
+    } ],
+    "locked" : null,
+    "feedbackOnFinish" : "Never",
+    "feedbackOnDropOff" : false,
+    "steps" : [ {
+      "title" : [ {
+        "language" : "en_US",
+        "value" : "Hello Folks!"
+      } ],
+      "description" : [ {
+        "language" : "en_US",
+        "value" : ""
+      } ],
+      "id" : 87924,
+      "guideId" : 19035,
+      "element" : "{\"xpath\":\"/html/body/h1\",\"cssSelector\":\"html>body>h1\",\"id\":\"greetings\",\"elementDescription\":\"{\\\"tagname\\\":\\\"h1\\\",\\\"hasInnerText\\\":true,\\\"attributes\\\":[]}\",\"textElement\":\"{\\\"textIndex\\\":\\\"0\\\",\\\"text\\\":\\\"Hello\\\"}\",\"matcherOptions\":{\"elementId\":true,\"cssSelector\":false,\"xpathSelector\":false,\"attributesSelector\":true,\"textSelector\":true,\"attributesClassSelector\":true},\"path\":[]}",
+      "elementTexts" : [ ],
+      "order" : 0,
+      "align" : "BOTTOM",
+      "playRuleKind" : "NEXT",
+      "spotlight" : false,
+      "highlight" : false,
+      "options" : "{\"bubbleSize\":\"Auto\",\"timer\":0,\"inIFrame\":false,\"matcherOptions\":{\"elementId\":true,\"cssSelector\":false,\"xpathSelector\":false,\"attributesSelector\":true,\"textSelector\":true,\"attributesClassSelector\":true},\"stepType\":\"Bubble\",\"animationType\":\"AnimationNone\"}",
+      "zindex" : null,
+      "extraWait" : false,
+      "urlPath" : "/api/pages/hello.html",
+      "url" : "http://steam.newired.local:3002/api/pages/hello.html",
+      "urlId" : 12728,
+      "feedback" : false,
+      "skippable" : false,
+      "actions" : [ ],
+      "fullscreenScreenshotObjectId" : "9625/journeys/19035/87924/fullscreen_971FBDE23E8E1E07AC8BDE6BE5711DEB_1628666532761.jpeg"
+    }, {
+      "title" : [ {
+        "language" : "en_US",
+        "value" : "That's all"
+      } ],
+      "description" : [ {
+        "language" : "en_US",
+        "value" : "<p>... for now.</p>"
+      } ],
+      "id" : 87925,
+      "guideId" : 19035,
+      "element" : "{\"xpath\":\"/html/body\",\"cssSelector\":\"html>body\",\"elementDescription\":\"{\\\"tagname\\\":\\\"body\\\",\\\"hasInnerText\\\":false,\\\"attributes\\\":[]}\",\"matcherOptions\":{\"elementId\":false,\"cssSelector\":false,\"xpathSelector\":false,\"attributesSelector\":true,\"textSelector\":false,\"attributesClassSelector\":true},\"path\":[]}",
+      "elementTexts" : [ ],
+      "order" : 1,
+      "align" : "BOTTOM_RIGHT",
+      "playRuleKind" : "NEXT",
+      "spotlight" : false,
+      "highlight" : false,
+      "options" : "{\"bubbleSize\":{\"width\":792,\"height\":233},\"timer\":0,\"inIFrame\":false,\"matcherOptions\":{\"elementId\":false,\"cssSelector\":false,\"xpathSelector\":false,\"attributesSelector\":true,\"textSelector\":false,\"attributesClassSelector\":true},\"stepType\":\"Panel\",\"animationType\":\"AnimationNone\"}",
+      "zindex" : null,
+      "extraWait" : false,
+      "urlPath" : "/api/pages/hello.html",
+      "url" : "http://steam.newired.local:3002/api/pages/hello.html",
+      "urlId" : 12728,
+      "feedback" : false,
+      "skippable" : false,
+      "actions" : [ ],
+      "fullscreenScreenshotObjectId" : "9625/journeys/19035/87925/fullscreen_C1012EB96954B20F290F9DE692BA6D6C_1628666549872.jpeg"
+    } ]
+  } ],
+  "guideRules" : [ {
+    "guideId" : 19035,
+    "rules" : "[]"
+  } ],
+  "stepRules" : [ ],
+  "autoplayRules" : [ {
+    "guideId" : 19035,
+    "rules" : "[]",
+    "options" : "{\"playOnce\":true}"
+  } ],
+  "scripts" : {
+    "actions" : [ {
+      "id" : 148,
+      "name" : "getUserName",
+      "code" : "return null;",
+      "siteId" : 9625,
+      "parameters" : null
+    } ]
+  },
+  "userTranslations" : [ {
+    "language" : "en_US",
+    "translations" : {
+      "feedback_journey_finish_title" : "How do you feel about the help you just received?",
+      "feedback_journey_finish_note_title" : "Do you have any additional feedback for us?",
+      "feedback_journey_finish_placeholder" : "Tell us your thoughts",
+      "feedback_journey_rating1" : "I am disappointed",
+      "feedback_journey_rating2" : "It did the job",
+      "feedback_journey_rating3" : "It was great!",
+      "feedback_journey_drop_off_title" : "How do you feel about the help you just received?",
+      "feedback_journey_drop_off_note_title" : "Do you have any additional feedback for us?",
+      "feedback_journey_drop_off_placeholder" : "Tell us your thoughts",
+      "feedback_step_title" : "Send feedback",
+      "feedback_step_note_title" : "Your feedback is helping us to do things better.",
+      "feedback_step_placeholder" : "Tell us your thoughts",
+      "feedback_step_rating1" : "I am disappointed",
+      "feedback_step_rating2" : "It did the job",
+      "feedback_step_rating3" : "It was great!"
+    }
+  } ],
+  "supportedLanguages" : [ {
+    "id" : 1,
+    "name" : "BG български",
+    "code" : "bg_BG"
+  }, {
+    "id" : 2,
+    "name" : "CS čeština",
+    "code" : "cs_CZ"
+  }, {
+    "id" : 3,
+    "name" : "DA dansk",
+    "code" : "da_DK"
+  }, {
+    "id" : 4,
+    "name" : "DE deutsch",
+    "code" : "de_DE"
+  }, {
+    "id" : 5,
+    "name" : "EL ελληνικά",
+    "code" : "el_BG"
+  }, {
+    "id" : 6,
+    "name" : "EN english UK",
+    "code" : "en_GB"
+  }, {
+    "id" : 7,
+    "name" : "EN english US",
+    "code" : "en_US"
+  }, {
+    "id" : 8,
+    "name" : "ES español",
+    "code" : "es_ES"
+  }, {
+    "id" : 9,
+    "name" : "ET eesti",
+    "code" : "et_EE"
+  }, {
+    "id" : 10,
+    "name" : "FI suomi",
+    "code" : "fi_FI"
+  }, {
+    "id" : 11,
+    "name" : "FR français",
+    "code" : "fr_FR"
+  }, {
+    "id" : 12,
+    "name" : "HR hrvatski",
+    "code" : "hr_HR"
+  }, {
+    "id" : 13,
+    "name" : "HU magyar",
+    "code" : "hu_HU"
+  }, {
+    "id" : 14,
+    "name" : "IT italiano",
+    "code" : "it_IT"
+  }, {
+    "id" : 31,
+    "name" : "JP 日本語",
+    "code" : "ja_JP"
+  }, {
+    "id" : 15,
+    "name" : "LT lietuvių",
+    "code" : "lt_LT"
+  }, {
+    "id" : 16,
+    "name" : "LV latviešu",
+    "code" : "lv_LV"
+  }, {
+    "id" : 17,
+    "name" : "MK македонски",
+    "code" : "mk_MK"
+  }, {
+    "id" : 18,
+    "name" : "NL nederlands",
+    "code" : "nl_NL"
+  }, {
+    "id" : 19,
+    "name" : "NO norsk",
+    "code" : "no_NO"
+  }, {
+    "id" : 20,
+    "name" : "PL polski",
+    "code" : "pl_PL"
+  }, {
+    "id" : 21,
+    "name" : "PT português",
+    "code" : "pt_PT"
+  }, {
+    "id" : 22,
+    "name" : "RO română",
+    "code" : "ro_RO"
+  }, {
+    "id" : 23,
+    "name" : "RU русский",
+    "code" : "ru_RU"
+  }, {
+    "id" : 24,
+    "name" : "SK slovenčina",
+    "code" : "sk_SK"
+  }, {
+    "id" : 25,
+    "name" : "SL slovenščina",
+    "code" : "sl_SI"
+  }, {
+    "id" : 26,
+    "name" : "SR српски",
+    "code" : "sr_SP"
+  }, {
+    "id" : 27,
+    "name" : "SV svenska",
+    "code" : "sv_SE"
+  }, {
+    "id" : 28,
+    "name" : "TR türkçe",
+    "code" : "tr_TR"
+  }, {
+    "id" : 29,
+    "name" : "UK українська",
+    "code" : "uk_UA"
+  }, {
+    "id" : 30,
+    "name" : "ZH-CN 中文",
+    "code" : "zh_CN"
+  } ],
+  "defaultLanguage" : "en_US"
+}

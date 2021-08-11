@@ -1,0 +1,100 @@
+{
+  "tips" : [ {
+    "align" : "BOTTOM",
+    "iconAlign" : null,
+    "content" : [ {
+      "language" : "en_US",
+      "value" : ""
+    } ],
+    "element" : "{\"xpath\":\"/html/body/div/header/div/h1/a/img\",\"cssSelector\":\"html>body>div.container-fluid>header.row>div.col.col-md-12>h1>a>img.img-responsive\",\"id\":\"logo\",\"css\":\"img-responsive\",\"elementDescription\":\"{\\\"tagname\\\":\\\"img\\\",\\\"hasInnerText\\\":false,\\\"attributes\\\":[{\\\"name\\\":\\\"src\\\",\\\"value\\\":\\\"bdgfx/Web%2520Logo.png\\\",\\\"category\\\":\\\"Hard\\\"},{\\\"name\\\":\\\"class\\\",\\\"value\\\":\\\"img-responsive\\\",\\\"category\\\":\\\"Hard\\\"},{\\\"name\\\":\\\"alt\\\",\\\"value\\\":\\\"Steam%20Engine%20logo\\\",\\\"category\\\":\\\"Hard\\\"},{\\\"name\\\":\\\"style\\\",\\\"value\\\":\\\"margin-left%3A100px\\\",\\\"category\\\":\\\"Soft\\\"}]}\",\"matcherOptions\":{\"elementId\":true,\"cssSelector\":false,\"xpathSelector\":false,\"attributesSelector\":true,\"textSelector\":false,\"attributesClassSelector\":true},\"path\":[]}",
+    "elementTexts" : [ ],
+    "id" : 6111,
+    "name" : [ {
+      "language" : "en_US",
+      "value" : "This is xdsds"
+    } ],
+    "options" : "{\"matcherOptions\":{\"elementId\":true,\"cssSelector\":false,\"xpathSelector\":false,\"attributesSelector\":true,\"textSelector\":false,\"attributesClassSelector\":true},\"bubbleSize\":\"Auto\",\"relativeZIndex\":0}",
+    "kind" : "TipBubble",
+    "iconOffset" : null,
+    "urlPath" : "/",
+    "url" : "http://steam-red.newired.com/",
+    "urlId" : 12699,
+    "iconShape" : "help",
+    "iconColorIndex" : 5,
+    "iconSizeIndex" : 3,
+    "language" : "en_US",
+    "fullscreenScreenshotObjectId" : "9625/tips/6111/fullscreen_4C75B959AB0CDCB047AEFAE09D2AB1D2_1628170016205.jpeg"
+  } ],
+  "tipRules" : [ ],
+  "tipsAutoplay" : [ {
+    "tipId" : 6112,
+    "rules" : "[]",
+    "trigger" : "NEVER"
+  } ],
+  "iconColorPalette" : [ {
+    "index" : 1,
+    "value" : "#F6402C"
+  }, {
+    "index" : 2,
+    "value" : "#EB1460"
+  }, {
+    "index" : 3,
+    "value" : "#9C1AB1"
+  }, {
+    "index" : 4,
+    "value" : "#6633B9"
+  }, {
+    "index" : 5,
+    "value" : "#3D4DB7"
+  }, {
+    "index" : 6,
+    "value" : "#1093F5"
+  }, {
+    "index" : 7,
+    "value" : "#00BBD5"
+  }, {
+    "index" : 8,
+    "value" : "#46AF4A"
+  }, {
+    "index" : 9,
+    "value" : "#CCDD1E"
+  }, {
+    "index" : 10,
+    "value" : "#FFEC16"
+  }, {
+    "index" : 11,
+    "value" : "#FFC100"
+  }, {
+    "index" : 12,
+    "value" : "#FF9800"
+  }, {
+    "index" : 13,
+    "value" : "#111111"
+  }, {
+    "index" : 14,
+    "value" : "#FFFFFF"
+  } ],
+  "iconSizeRange" : [ {
+    "index" : 1,
+    "value" : "8"
+  }, {
+    "index" : 2,
+    "value" : "12"
+  }, {
+    "index" : 3,
+    "value" : "16"
+  }, {
+    "index" : 4,
+    "value" : "20"
+  }, {
+    "index" : 5,
+    "value" : "24"
+  }, {
+    "index" : 6,
+    "value" : "32"
+  }, {
+    "index" : 7,
+    "value" : "40"
+  } ],
+  "defaultLanguage" : "en_US"
+}
