@@ -1,1 +1,34 @@
 <div id="app"></div>
+
+<script>
+(function () {
+    // var launcherPath = 'https://alpha.stage.newired.com/content/9309/';
+    // var launcherPath = "http://localhost:8090/newired/content/2/";
+    var launcherPath = '/launcher/';
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = launcherPath + "NW_launcher_loader.js?" + new Date().getTime();
+    script.id = "snippet-launcher";
+    script.onload = function () {
+        console.log("Newired Launcher loader added to the site successfully.");
+        window.newired.loader.loadLauncher({
+            pathPrefix: launcherPath,
+            backend: "http://localhost:8090/newired/",
+            launcherVisible: true
+        });
+    };
+    script.onerror = function (e) {
+        console.warn(
+            "\n================================================================================" +
+            "\n" +
+            "\n  There is probably no published content or the launcher path is incorrect." +
+            "\n  Please check the launcher path '" + launcherPath + "'" +
+            "\n  and verify that your Site on Portal has a submitted content." +
+            "\n" +
+            "\n================================================================================"
+            , e);
+    };
+    document.head.appendChild(script);
+})();
+</script>
+
